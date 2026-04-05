@@ -4,8 +4,10 @@ title: "Story 2: Pre-Mid Vibes 🏛️✨"
 date: 2026-03-10
 categories: semester-1
 ---
+---
+# Title: "Pre-Mid Vibes 🏛️✨"
 
-# 🌸 Navigating the New Environment
+### 🌸 Navigating the New Environment
 
 Settling into the hostel was a rollercoaster! 🎢 While my senior roommates were incredibly sweet and made the transition easy, the "mess food" was a different story—I basically lived on bread, fruits, and the occasional delivery order. 🥖🍎 Orientation week felt like a movie; I managed to dodge the ragging and felt so lucky to stay under the radar! 🎀 Being part of the first-ever batch of Computer Engineering at FSD means we have no seniors in our own department to guide us. It's a bit scary, but navigating the new environment and the "no book system" together makes us the ones setting the trend on campus! 🏛️👩‍💻💞
 
