@@ -5,7 +5,7 @@ date: 2026-03-10
 categories: semester-1
 ---
 ---
-# Title: "The Starting Days 🏛️"
+# Title: "Story 1: The Starting Days 🏛️"
 
 ### 🌸 My Journey to UET Faisalabad
 
