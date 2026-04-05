@@ -35,6 +35,6 @@ Programming Fundamentals (PF) is easily the highlight of my week! ⌨️💕 Dr.
 
 ---
 
-<blockquote style="font-size: 1.4rem; color: var(--pink); border-left: 5px solid var(--pink); padding: 15px 25px; background: rgba(255, 105, 180, 0.05); border-radius: 0 15px 15px 0; margin-top: 30px; font-weight: bold; text-shadow: 0 0 10px rgba(255, 105, 180, 0.3);">
-    "Logic is the heart of code, but snacks are the fuel for the coder." 🌸🌷✨
-</blockquote>
+---
+
+> "Logic is the heart of code, but snacks are the fuel for the coder." 🌸🌷✨
