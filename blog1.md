@@ -23,8 +23,8 @@ In our first semester, we began our journey with *Programming Fundamentals* usin
 was like announcing my arrival in the coding world, ready to conquer. Having *Dr. Bilal* as both our theory and lab teacher was a true advantage; the bridge between classroom and computer was seamless. Under his guidance, coding stopped being a subject and became a passion I am eager to master.
 
 > "Destination is not just a place; it's the passion you bring to it." ✨🎀
-
+---
 ![UET Faisalabad Gate]({{ site.baseurl }}/assets/images/uet_gate.jpeg)
 The moment I walked through these gates, my engineering era truly began! 🏛️✨🌷
-
+---
 [← Back to Home]({{ site.baseurl }}/)
