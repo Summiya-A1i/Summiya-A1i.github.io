@@ -15,6 +15,15 @@ As the midterms faded and the year began to wind down, the campus vibe shifted i
 
 ### The Machine Learning Era with Dr. Bilal
 Post-midterms, my PF journey took a thrilling turn: I was assigned my very first *Machine Learning project! 🤯✨ Shifting from simple Python logic to the world of ML felt like a massive leap, but **Dr. Bilal* made the transition feel like a true adventure. His stories about his own learning journey were so incredibly *inspiring—they turned a complex subject into a personal passion for me! 💾💖 The first big milestone was selecting a dataset; I didn't realize how critical that foundation was until Dr. Bilal stepped in to guide me. 🏛️🌷 Thanks to his support, he personally provided the datasets which made starting the work so much easier. I officially began my project: *"Predicting Loan Approval using Machine Learning."** 📊 It was the moment I realized that coding isn't just about syntax—it's about building solutions that can actually change the world! 🎀👩‍💻🌷
+<br>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/notebook.jpeg" 
+         style="width: 450px; height: auto; max-width: 90%; border-radius: 20px; border: 2px solid var(--pink); box-shadow: 0 0 25px rgba(255, 105, 180, 0.4); margin: 20px auto;">
+    <p style="font-style: italic; color: #888; margin-top: 10px; font-size: 0.9rem;">
+        ✨ Solo study sessions and endless midnight noodles! 🍜📑🌸
+    </p>
+</div>
+<br>
 
 <br>
 
