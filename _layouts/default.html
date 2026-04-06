@@ -18,7 +18,7 @@
             color: #f0f0f0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0; padding: 0;
-            display: flex; /* This creates the Side-by-Side look */
+            display: flex; 
         }
 
         /* 🎀 FIXED SIDEBAR */
@@ -33,6 +33,7 @@
             padding: 30px 20px;
             box-sizing: border-box;
             z-index: 1000;
+            transition: 0.4s ease-in-out; /* Smooth slide for mobile */
         }
 
         .sidebar .logo { 
@@ -63,7 +64,7 @@
 
         /* 🌸 MAIN CONTENT AREA */
         .main-content {
-            margin-left: var(--sidebar-width); /* Pushes content to the right */
+            margin-left: var(--sidebar-width); 
             width: 100%;
             min-height: 100vh;
         }
@@ -95,17 +96,47 @@
             border: 1px solid #222; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
-        /* 📲 MOBILE FIX */
+        /* 📱 MOBILE NAVIGATION STYLES */
+        .menu-icon {
+            display: none; /* Hidden on laptop */
+            background: none; border: 2px solid var(--pink);
+            color: var(--pink); padding: 8px 15px; border-radius: 10px;
+            margin: 15px; font-size: 1rem; cursor: pointer;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.4);
+            z-index: 2000;
+            position: relative;
+        }
+
         @media (max-width: 850px) {
-            body { flex-direction: column; }
-            .sidebar { width: 100%; height: auto; position: relative; border-right: none; border-bottom: 2px solid var(--pink); }
-            .main-content { margin-left: 0; }
-            .sidebar .logo { margin-bottom: 15px; }
-            .sidebar-links { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 10px; }
+            body { display: block; }
+            
+            .menu-icon { display: inline-block; } /* Show button on phone */
+
+            .sidebar {
+                left: -280px; /* Hide off-screen */
+                position: fixed;
+                width: 250px;
+                height: 100vh;
+                box-shadow: 10px 0 25px rgba(0,0,0,0.8);
+            }
+
+            .sidebar.active {
+                left: 0; /* Slide in! */
+            }
+
+            .main-content {
+                margin-left: 0;
+                width: 100%;
+            }
+            
+            .hero h1 { font-size: 2rem; }
         }
     </style>
 </head>
 <body>
+
+    <!-- 📱 Mobile Toggle Button -->
+    <button id="menu-toggle" class="menu-icon">☰ Menu</button>
 
     <!-- 🗺️ SIDE NAVIGATION -->
     <div class="sidebar">
@@ -156,6 +187,26 @@
             &copy; 2024 - 2028 | Engineering with Passion 🎀⚙️
         </footer>
     </div>
+
+    <!-- 🪄 Side-Drawer Logic -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        toggleBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            sidebar.classList.toggle('active');
+            toggleBtn.innerText = sidebar.classList.contains('active') ? '✕ Close' : '☰ Menu';
+        });
+
+        // Close menu if user clicks outside of it
+        document.addEventListener('click', (e) => {
+            if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
+                sidebar.classList.remove('active');
+                toggleBtn.innerText = '☰ Menu';
+            }
+        });
+    </script>
 
 </body>
 </html>
