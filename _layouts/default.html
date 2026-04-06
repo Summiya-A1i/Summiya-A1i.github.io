@@ -115,28 +115,31 @@
         }
 
         @media (max-width: 850px) {
-            body { display: block; }
-            
-            .menu-icon { display: inline-block; } /* Show button on phone */
+             body { display: block !important; }
 
-            .sidebar {
-                left: -280px; /* Hide off-screen */
-                position: fixed;
-                width: 250px;
-                height: 100vh;
-                box-shadow: 10px 0 25px rgba(0,0,0,0.8);
-            }
+        .sidebar { 
+            position: fixed !important; /* This is the secret! */
+            top: 0 !important;
+            left: -280px !important; 
+            width: 260px !important; 
+            height: 100vh !important; 
+            z-index: 3000 !important;
+            transition: 0.4s ease-in-out !important;
+        }
 
-            .sidebar.active {
-                left: 0; /* Slide in! */
-            }
+        .sidebar.active {
+            left: 0 !important; 
+        }
 
-            .main-content {
-                margin-left: 0;
-                width: 100%;
-            }
-            
-            .hero h1 { font-size: 2rem; }
+        .main-content { 
+            margin-left: 0 !important; 
+            padding-top: 0 !important; /* Removes the gap above your name */
+        }
+
+    /* Make sure the hero section starts at the very top */
+        .hero {
+            margin-top: 0 !important;
+        }
         }
     </style>
 </head>
