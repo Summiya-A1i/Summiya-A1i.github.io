@@ -1,8 +1,6 @@
 ---
-layout: post
-title: "Story 3: The Midterm Hustle 📑🎀"
-date: 2026-04-12
-categories: semester-1
+layout: default
+title: "My 8-Semester Journey"
 ---
 ---
 # Title: "Story 3: The Midterm Hustle 📑🎀"
