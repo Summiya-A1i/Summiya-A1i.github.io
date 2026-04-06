@@ -22,7 +22,7 @@ I am documenting every step of my 8-semester chronicle because I believe my jour
 ---
 
 <div style="text-align: center;">
-    <img src="(https://i.pinimg.com/736x/66/8d/f4/668df472ca75adebfdbfe8812164325e.jpg)" 
+    <img src="https://i.pinimg.com/736x/66/8d/f4/668df472ca75adebfdbfe8812164325e.jpg" 
          style="width: 280px; height: 350px; object-fit: cover; border-radius: 20px; border: 2px solid var(--pink); box-shadow: 0 0 20px rgba(255, 105, 180, 0.4); margin: 20px auto;">
     <p style="font-style: italic; color: #888; margin-top: 10px;">✨ Seeking knowledge wherever it leads, with no limits. 🏹🌸🦢</p>
 </div>
